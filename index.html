@@ -311,6 +311,18 @@ footer{padding-bottom:100px}}
 .fcard.dk .pill{background:rgba(233,188,198,.16);color:var(--blush)}
 .cs{margin:0;font-size:14px;color:#E3CFD6}
 .code{display:inline-block;padding:2px 10px;border-radius:8px;background:var(--g2);color:var(--ink);font-weight:800;letter-spacing:.06em}
+
+.tarwrap{grid-column:1/-1}
+.tars{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:760px){.tars{grid-template-columns:1fr}}
+.tar{border-radius:22px;padding:22px;background:rgba(255,255,255,.06);border:1px solid rgba(233,188,198,.22);display:flex;flex-direction:column;gap:10px;color:var(--soft)}
+.tar.hot{background:linear-gradient(150deg,rgba(233,188,198,.18),rgba(233,188,198,.06));border-color:rgba(233,188,198,.6)}
+.tar .th{display:flex;flex-direction:column;gap:2px}.tar .th b{font-family:"Inter Tight";font-size:28px;letter-spacing:-.03em}
+.tar .th span{font-size:13px;font-weight:800;color:var(--blush);text-transform:uppercase;letter-spacing:.06em}
+.tar p{margin:0;color:#E3CFD6;font-size:15px}.tar ul{margin:0;padding-left:20px;display:grid;gap:6px;font-size:15px;color:#E3CFD6}
+.tar .btn{margin-top:auto;align-self:flex-start}.tar .btn.ghost{color:var(--soft);border-color:rgba(233,188,198,.5)}
+.tnote{margin:12px 0 0;color:#D9BFC8;font-size:14.5px}.tnote a{color:var(--blush)}
+.sheet .tar{background:#2A161F}.sheet .tars{margin-top:10px}.sheet .tnote{color:var(--muted)}.sheet .tnote a{color:var(--wine)}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
@@ -451,7 +463,7 @@ footer{padding-bottom:100px}}
 <h2 class="t sec-title gt">Як оплатити</h2>
 <div class="pay">
 <div class="card reveal"><h3>Apple Pay, Google Pay або картка</h3><p class="sub">Оплата проходить на захищеній сторінці monobank. Дані картки не передаються і не зберігаються на цьому сайті.</p></div>
-<div class="card reveal"><h3>Оплата частинами</h3><p class="sub">Full IELTS можна оплатити частинами через «Покупку частинами» monobank — кількість платежів обираєш під час оформлення.</p></div>
+<div class="card reveal"><h3>Оплата частинами</h3><p class="sub">Full IELTS можна оплатити частинами — умови уточнюй в особистих @kravchenkoeng.</p></div>
 <div class="card reveal"><h3>Доступ до курсу</h3><p class="sub">Після оплати доступ до навчальної платформи надходить <span class="fill" style="background:#F3E1E5;color:var(--wine)">[протягом ___ на email / у Telegram]</span>.</p></div>
 </div>
 <div class="methods"><span>Visa</span><span>Mastercard</span><span>Apple Pay</span><span>Google Pay</span><span>monobank · Покупка частинами</span></div>
@@ -468,7 +480,9 @@ footer{padding-bottom:100px}}
 <details><summary>Як проходять заняття?</summary><p>Курси у записі — це відеоуроки, авторські презентації, завдання та реальні тести на навчальній платформі: дивишся й практикуєшся, коли зручно. Живі формати — mini group, пари та 1:1 онлайн — дають фідбек наживо на кожну відповідь.</p></details>
 <details><summary>Чи можна поєднувати з навчанням або роботою?</summary><p>Так. Курси у записі не прив’язані до розкладу: можна займатися по 40–60 хвилин на день у будь-який час. Для живих форматів підбираємо зручний час заздалегідь.</p></details>
 <details><summary>Чи буде підтримка під час навчання?</summary><p>Ти не залишаєшся наодинці з відео. Питання щодо програми й прогресу можна поставити мені в Telegram, а на живих форматах кожна відповідь отримує детальний фідбек. <span class="fill" style="background:#F3E1E5;color:var(--wine)">[уточни формат підтримки для курсів у записі]</span></p></details>
-<details><summary>Чи можна оплатити частинами?</summary><p>Так, Full IELTS можна оплатити частинами через monobank — обери «Частинами» при оформленні.</p></details>
+<details><summary>Скільки коштує Full IELTS?</summary><p>Ціна залежить від тарифу — «Самостійний» або «Преміум». Напиши кодове слово «КУРС» у Telegram <a href="https://t.me/kravchenkoeng">@kravchenkoeng</a> — я надішлю ціну, вільні місця і підкажу, який тариф підійде саме тобі.</p></details>
+<details><summary>Чи можна оплатити частинами?</summary><p>Так, Full IELTS можна оплатити частинами. Умови уточнюй в особистих <a href="https://t.me/kravchenkoeng">@kravchenkoeng</a>.</p></details>
+<details><summary>Чим «Самостійний» відрізняється від «Преміуму»?</summary><p>У «Самостійному» ти проходиш повний курс у записі у своєму темпі. У «Преміумі» до курсу додається мій особистий супровід: перевірка твоїх есе, фідбек на Speaking і персональний план до цільового бала. Тому місць у «Преміумі» щомісяця обмежена кількість.</p></details>
 <details><summary>Як довго діє доступ?</summary><p><span class="fill" style="background:#F3E1E5;color:var(--wine)">[вкажи строк доступу до курсів]</span></p></details>
 <details><summary>Чи можна повернути кошти?</summary><p>Умови повернення описані в розділі <a href="#refund">«Повернення коштів»</a>.</p></details>
 </div>
@@ -480,7 +494,7 @@ footer{padding-bottom:100px}}
 <div class="cta" style="justify-content:center"><a class="btn rose" href="#courses">Обрати курс</a><a class="btn ghost" style="color:var(--soft);border-color:rgba(233,188,198,.45)" href="https://t.me/kravchenkoeng">Написати в Telegram</a></div>
 </div></section>
 </main>
-<div class="mbar" id="mbar"><div><b id="mbarPrice"></b><span>Full IELTS · можна частинами</span></div><button class="btn rose" data-buy="full">Записатися</button></div>
+<div class="mbar" id="mbar"><div><b id="mbarPrice"></b><span>2 тарифи · можна частинами</span></div><a class="btn rose" href="https://t.me/kravchenkoeng" target="_blank" rel="noopener">Забронювати</a></div>
 
 <footer><div class="wrap">
 <div class="cols">
@@ -593,7 +607,7 @@ const CHECK = { open: "2026-11-28T12:00:00+02:00", close: "2026-11-30T12:00:00+0
 const CHANNEL = "https://t.me/+tux1m_1cca5lNWVi";
 
 const PRODUCTS = {
-  full:{name:"Full IELTS course", price:8900, parts:true},
+  full:{name:"Full IELTS course", price:8900, parts:true, hidden:true},
   writing1:{name:"IELTS Writing · Part 1", price:2700},
   writing2:{name:"IELTS Writing · Part 2", price:3400},
   writingBoth:{name:"IELTS Writing · Part 1 + 2", price:4800},
@@ -604,6 +618,20 @@ const PRODUCTS = {
   trial:{name:"Пробний урок", price:1, noDiscount:true}
 };
 
+/* ТАРИФИ FULL IELTS — ціна в особистих, як у Troyan School */
+const TG = "https://t.me/kravchenkoeng";
+const TARIFFS = [
+ {name:"Самостійний", tag:"у своєму темпі", desc:"Для тих, хто вміє вчитися сам(-а) і хоче чітку систему.",
+  items:["Повний курс у записі: Listening, Reading, Writing, Speaking","Граматика і лексика для 7.0+","Реальні тести і Cambridge IELTS","Мої авторські матеріали і презентації — нічого не докуповуєш","Закритий чат учнів"]},
+ {name:"Преміум", tag:"обмежена кількість місць на місяць", hot:true, desc:"Курс + мій особистий супровід до твого бала.",
+  items:["Усе з тарифу «Самостійний»","Особиста перевірка твоїх есе з Writing","Фідбек на твій Speaking","Персональний план до цільового бала","Відповіді на питання напряму від мене"]}
+];
+const tariffHTML = () => `<div class="tars">${TARIFFS.map(t=>`<div class="tar${t.hot?" hot":""}">
+  <div class="th"><b>${t.name}</b><span>${t.tag}</span></div><p>${t.desc}</p>
+  <ul>${t.items.map(i=>`<li>${i}</li>`).join("")}</ul>
+  <a class="btn ${t.hot?"rose":"ghost"}" href="${TG}" target="_blank" rel="noopener">Забронювати місце</a></div>`).join("")}</div>
+  <p class="tnote">Ціну, вільні місця й оплату частинами уточнюй в особистих: напиши <b>«КУРС»</b> → <a href="${TG}" target="_blank" rel="noopener">@kravchenkoeng</a></p>`;
+
 const COURSES = [
  {id:"full", level:"від B1 · з нижчого рівня — почни з Grammar + Vocabulary", feat:true, name:"Full IELTS course", sub:"Повна програма системної підготовки до IELTS Academic", badge:"найвигідніше · можна частинами",
   short:["Усі 4 модулі: Listening, Reading, Writing, Speaking","Граматика й лексика для високого бала","Реальні Cambridge IELTS тести та авторські матеріали","Навчальна платформа — у твоєму темпі"],
@@ -611,7 +639,7 @@ const COURSES = [
   result:["Розумієш формат і логіку кожного завдання","Маєш стратегію для кожного модуля","Сильна база граматики й лексики під Writing і Speaking","Вимірюваний прогрес на реальних тестах"],
   modules:[["Старт і діагностика","Формат IELTS, як рахується бал, визначення рівня і цілі."],["Listening","Усі чотири частини, типи завдань, прогнозування відповідей, синоніми і правопис."],["Reading","T/F/NG, Matching Headings, completion-завдання, skimming/scanning, тайм-менеджмент."],["Writing","Task 1 і Task 2: структура, логіка, академічна лексика, критерії оцінювання."],["Speaking","Part 1–3: розгорнуті відповіді, план для Part 2, аргументація, fluency."],["Grammar & Vocabulary","Складні конструкції та лексика в контексті — наскрізно через увесь курс."],["Практика і повторення","Реальні Cambridge-тести, аналіз помилок, перевірки лексики."]],
   format:["Відеоуроки у записі на навчальній платформі","Авторські презентації та завдання","Реальні тести Cambridge IELTS","Доступ: [строк доступу]"],
-  price:"full", parts:true},
+  price:"full", parts:true, tariffs:true},
  {id:"writing", level:"від B1+", name:"IELTS Writing", sub:"Пишемо так, як оцінює екзаменатор",
   short:["Структура і логіка кожного типу завдання","Академічна лексика і складна граматика","Критерії оцінювання"],
   who:["Writing тягне загальний бал вниз","Не розумієш, за що знімають бали","Хочеш писати впевнено і без шаблонів"],
@@ -686,7 +714,9 @@ COURSES.forEach(c => {
   const video = `<div class="video">▶ Відео-пояснення курсу<br>з’явиться тут найближчим часом</div>`;
   const more = `<button class="more" data-more="${c.id}">Детальніше про курс →</button>`;
   let pricePart, buy;
-  if (c.options){
+  if (c.tariffs){
+    pricePart = tariffHTML(); buy = "";
+  } else if (c.options){
     pricePart = `<div class="opts">${c.options.map(o=>`<div class="opt"><span>${o[0]}</span><span class="p">${bfOn?`<s>${fmt(PRODUCTS[o[1]].price)}</s>`:""}${fmt(priceOf(o[1]))}</span></div>`).join("")}</div>`;
     buy = `<div class="buy">${c.options.map(o=>`<button class="btn ${o[1]==="writingBoth"?"main":"ghost"}" data-buy="${o[1]}">${o[0].split(" ·")[0]}</button>`).join("")}</div>`;
   } else {
@@ -700,7 +730,7 @@ COURSES.forEach(c => {
     <div><div class="lbl">Результат</div><ul>${c.result.slice(0,3).map(i=>`<li>${i}</li>`).join("")}</ul></div>
   </div>`;
   el.innerHTML = c.feat
-    ? `<div style="display:flex;flex-direction:column;gap:12px"><span class="badge" style="align-self:flex-start">${c.badge}</span><h3 style="font-size:40px" class="gt2">${c.name}</h3><p class="sub">${c.sub}</p>${meta}${more}</div><div style="display:flex;flex-direction:column;gap:14px">${video}${pricePart}${buy}</div>`
+    ? `<div style="display:flex;flex-direction:column;gap:12px"><span class="badge" style="align-self:flex-start">${c.badge}</span><h3 style="font-size:40px" class="gt2">${c.name}</h3><p class="sub">${c.sub}</p>${meta}${more}</div><div style="display:flex;flex-direction:column;gap:14px">${video}${c.tariffs?"":pricePart+buy}</div>${c.tariffs?`<div class="tarwrap">${pricePart}</div>`:""}`
     : `<h3>${c.name}</h3><p class="sub">${c.sub}</p>${video}${meta}${more}${pricePart}${buy}`;
   list.appendChild(el);
 });
@@ -762,11 +792,11 @@ document.querySelectorAll("[data-scroll]").forEach(b => b.addEventListener("clic
 /* економія Full IELTS */
 (function(){
   const parts = ["writingBoth","speaking","reading","grammar","vocabulary"];
-  const sum = parts.reduce((a,k)=>a+priceOf(k),0), full = priceOf("full");
-  document.getElementById("save").innerHTML = `<div><span class="badge">вигідніше разом</span><h3 style="margin-top:10px">Full IELTS замість 5 окремих курсів</h3><p>Усі модулі в одній системі — і ти економиш. Можна оплатити частинами. Ціни на окремі курси вже підняті, а Full IELTS поки за старою ціною.</p></div>
+  const sum = parts.reduce((a,k)=>a+priceOf(k),0);
+  document.getElementById("save").innerHTML = `<div><span class="badge">вигідніше разом</span><h3 style="margin-top:10px">Full IELTS замість 5 окремих курсів</h3><p>Усі модулі в одній системі — і це значно вигідніше, ніж купувати окремо. Ціни на окремі курси вже підняті, а Full IELTS поки за старою ціною.</p></div>
   <div class="calc">${parts.map(k=>`<div><span>${PRODUCTS[k].name}</span><span>${fmt(priceOf(k))}</span></div>`).join("")}<div class="tot"><span>Окремо</span><span><s>${fmt(sum)}</s></span></div></div>
-  <div style="display:flex;flex-direction:column;gap:10px"><span style="font-size:13px;color:#D9BFC8;font-weight:700">економія</span><span class="big gt2">${fmt(sum-full)}</span><button class="btn rose" data-buy="full">Full IELTS · ${fmt(full)}</button></div>`;
-  document.getElementById("mbarPrice").textContent = fmt(full);
+  <div style="display:flex;flex-direction:column;gap:10px"><span style="font-size:13px;color:#D9BFC8;font-weight:700">Full IELTS</span><span class="big gt2" style="font-size:30px">значно дешевше</span><a class="btn rose" href="${TG}" target="_blank" rel="noopener">Дізнатися ціну</a></div>`;
+  document.getElementById("mbarPrice").textContent = "Full IELTS";
   const bar = document.getElementById("mbar");
   addEventListener("scroll", () => bar.classList.toggle("on", scrollY > innerHeight*.9), {passive:true});
 })();
@@ -776,7 +806,7 @@ const sheet = document.getElementById("sheet");
 function openSheet(id){
   const c = COURSES.find(x=>x.id===id);
   const ul = a => `<ul>${a.map(i=>`<li>${i}</li>`).join("")}</ul>`;
-  const priceBlock = c.options
+  const priceBlock = c.tariffs ? `<h3>Тарифи</h3>${tariffHTML()}` : c.options
     ? `<div class="opts">${c.options.map(o=>`<div class="opt"><span>${o[0]}</span><span class="p">${fmt(priceOf(o[1]))}</span></div>`).join("")}</div><div class="buy">${c.options.map(o=>`<button class="btn ${o[1]==="writingBoth"?"main":"ghost"}" data-buy="${o[1]}">${o[0].split(" ·")[0]}</button>`).join("")}</div>`
     : `<div class="price">${priceTag(c.price)}</div><div class="buy"><button class="btn main" data-buy="${c.price}">Записатися</button>${c.parts?`<button class="btn ghost" data-buy="full" data-parts="1">Оплата частинами</button>`:""}</div>`;
   document.getElementById("sheetDoc").innerHTML = `
@@ -795,7 +825,7 @@ function openSheet(id){
 /* checkout */
 const modal = document.getElementById("payModal");
 const sel = document.getElementById("cProduct");
-Object.entries(PRODUCTS).forEach(([k,p]) => { const o = document.createElement("option"); o.value = k; o.textContent = `${p.name} — ${fmt(priceOf(k))}`; sel.appendChild(o); });
+Object.entries(PRODUCTS).filter(([k,p]) => !p.hidden).forEach(([k,p]) => { const o = document.createElement("option"); o.value = k; o.textContent = `${p.name} — ${fmt(priceOf(k))}`; sel.appendChild(o); });
 function syncSum(){
   const k = sel.value; document.getElementById("cSum").textContent = fmt(priceOf(k));
   const po = document.getElementById("partsOpt"); po.style.display = PRODUCTS[k].parts ? "" : "none";
