@@ -6,10 +6,10 @@
 <title>Kravchenko English — курси з підготовки до IELTS</title>
 <meta name="description" content="Системна підготовка до IELTS від Катерини Кравченко (IELTS 8.5, Speaking 9.0): курси у записі, оплата Apple Pay та частинами.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#24141B;--muted:#6E5560;--wine:#9E4F69;--wine2:#7E3A52;--blush:#E9BCC6;--rose:#C98599;--cream:#FBF6F5;--pink:#F2E2E6;--dark:#22121A;--soft:#F6E7EB;--line:rgba(158,79,105,.18);--r:28px;
---g:linear-gradient(95deg,#C88197 0%,#A3566F 55%,#7E3A52 100%);--g2:linear-gradient(95deg,#F6D9E0 0%,#E9BCC6 45%,#D293A5 100%);}
+:root{--ink:#2A0F17;--muted:#7A5A63;--wine:#6B1F2E;--wine2:#56172A;--gold:#B08A45;--gold2:#D9B878;--blush:#E9BCC6;--rose:#C98599;--cream:#FBF6F5;--pink:#F2E2E6;--dark:#22121A;--soft:#F6E7EB;--line:rgba(158,79,105,.18);--r:28px;
+--g:linear-gradient(95deg,#A2475E 0%,#7E2B3F 50%,#6B1F2E 100%);--gg:linear-gradient(100deg,#E8CF9A 0%,#C9A35E 50%,#B08A45 100%);--g2:linear-gradient(95deg,#F6D9E0 0%,#E9BCC6 45%,#D293A5 100%);}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 html,body{overflow-x:clip}
@@ -17,14 +17,14 @@ body{margin:0;font-family:Manrope,system-ui,sans-serif;color:var(--ink);backgrou
 a{color:var(--wine)}
 img{max-width:100%;display:block}
 .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
-h1,h2,h3,.t{font-family:"Inter Tight",sans-serif;letter-spacing:-.035em;margin:0}
-.t{text-transform:uppercase;font-weight:800;line-height:.95}
+h1,h2,h3,.t{font-family:"Playfair Display",Georgia,serif;letter-spacing:-.01em;margin:0}
+.t{text-transform:uppercase;font-weight:700;line-height:1}
 .gt{background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
-.gt2{background:var(--g2);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gt2{background:var(--gg);-webkit-background-clip:text;background-clip:text;color:transparent}
 .kick{display:flex;justify-content:space-between;align-items:baseline;gap:16px;margin-bottom:10px;font-weight:700}
-.kick b{font-family:"Inter Tight";font-size:18px;letter-spacing:-.01em}
+.kick b{color:var(--gold);font-family:"Playfair Display";font-size:18px;letter-spacing:-.01em}
 .kick span{color:var(--muted);font-size:15px}
-.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:999px;background:#F3E1E5;color:var(--wine);font-weight:700;font-size:14px}
+.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;border-radius:999px;background:#fff;border:1px solid rgba(176,138,69,.45);color:var(--wine);font-weight:700;font-size:14px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:800;font-size:16px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s;font-family:inherit}
 .btn:hover{transform:translateY(-1px)}
 .btn.main{background:var(--ink);color:var(--soft);box-shadow:0 14px 30px rgba(36,20,27,.25)}
@@ -35,11 +35,12 @@ h1,h2,h3,.t{font-family:"Inter Tight",sans-serif;letter-spacing:-.035em;margin:0
 header{position:sticky;top:0;z-index:20;background:rgba(251,246,245,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:800}
-.mono{width:36px;height:36px;border-radius:50%;border:2px solid var(--wine);display:grid;place-items:center;font-family:"Inter Tight";font-size:14px;color:var(--wine)}
+.mono{width:36px;height:36px;border-radius:50%;border:2px solid var(--wine);display:grid;place-items:center;font-family:"Playfair Display";font-size:14px;color:var(--wine)}
 .links{display:flex;gap:22px}
-.links a{text-decoration:none;color:var(--ink);font-weight:600;font-size:15px}
+.links a{text-decoration:none;color:var(--ink);font-weight:600;font-size:15px;white-space:nowrap}
+.logo{white-space:nowrap}
 .links a:hover{color:var(--wine)}
-@media(max-width:860px){.links{display:none}}
+@media(max-width:1080px){.links{display:none}}
 /* sections */
 section{padding:84px 0}
 .sec-title{font-size:clamp(38px,6vw,68px);margin-bottom:14px}
@@ -50,16 +51,16 @@ section{padding:84px 0}
 .dark .frame{border-color:rgba(233,188,198,.55)}.dark .frame i{background:#E2B7C1}
 .dark{background:linear-gradient(160deg,#2F1923,#1B0E14);color:var(--soft)}
 .dark .lead{color:#E3CFD6}.dark .kick span{color:#D9BFC8}
-.pinkbg{background:linear-gradient(170deg,#F4E3E7,#E8C6CF)}
+.pinkbg{background:linear-gradient(170deg,#FDF2F2,#F2D2D5)}
 /* hero */
-.hero{padding:56px 0 80px;background:radial-gradient(70% 60% at 100% 0%,#F3DDE2 0,rgba(243,221,226,0) 70%),radial-gradient(60% 50% at 0% 100%,#F1D9DF 0,rgba(241,217,223,0) 70%),var(--cream);overflow:hidden}
+.hero{padding:56px 0 80px;background:radial-gradient(70% 60% at 100% 0%,#F3DDE2 0,rgba(243,221,226,0) 70%),radial-gradient(60% 50% at 0% 100%,#F1D9DF 0,rgba(241,217,223,0) 70%),linear-gradient(170deg,#FDF2F2,#F7E3E5);overflow:hidden}
 .hero .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
-.hero h1{font-size:clamp(46px,7.4vw,96px)}
+.hero h1{font-size:clamp(42px,6.4vw,84px)}
 .hero p.lead{margin:22px 0 26px}
 .cta{display:flex;flex-wrap:wrap;gap:12px}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:30px;max-width:560px}
 .stat{background:#fff;border-radius:18px;padding:12px;text-align:center;box-shadow:0 10px 24px rgba(110,50,70,.08)}
-.stat b{display:block;font-family:"Inter Tight";font-size:28px;letter-spacing:-.04em}
+.stat b{display:block;font-family:"Playfair Display";font-size:28px;letter-spacing:-.04em}
 .stat span{font-size:12.5px;color:var(--muted);font-weight:600}
 .arch{position:relative;justify-self:center;width:min(420px,100%)}
 .arch:before{content:"";position:absolute;inset:-14px;border-radius:240px 240px 40px 40px;background:var(--g2);opacity:.6;transform:rotate(4deg)}
@@ -74,7 +75,7 @@ section{padding:84px 0}
 .about .arch{width:min(380px,100%)}
 .facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0}
 .fact{background:#fff;border-radius:20px;padding:16px 18px;border:1px solid #fff;box-shadow:0 10px 24px rgba(110,50,70,.07)}
-.fact b{font-family:"Inter Tight";font-size:20px;display:block}
+.fact b{font-family:"Playfair Display";font-size:20px;display:block}
 .fact span{color:var(--muted);font-size:14px}
 @media(max-width:860px){.about .grid{grid-template-columns:1fr}}
 /* courses */
@@ -91,7 +92,7 @@ section{padding:84px 0}
 .card ul{margin:0;padding-left:20px;display:grid;gap:6px;font-size:15px}
 .feat ul{color:#E3CFD6}
 .price{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-top:auto}
-.price .now{font-family:"Inter Tight";font-weight:800;font-size:40px;letter-spacing:-.045em}
+.price .now{font-family:"Playfair Display";font-weight:800;font-size:40px;letter-spacing:-.045em}
 .price .old{text-decoration:line-through;color:var(--muted);font-weight:700}
 .feat .price .old{color:#C9AEB8}
 .price .unit{font-weight:700;color:var(--muted);font-size:14px}
@@ -101,7 +102,7 @@ section{padding:84px 0}
 .feat .video{background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(214,150,170,.16));color:#E9BCC6}
 .opts{display:grid;gap:8px}
 .opt{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 14px;border-radius:14px;background:#F8EEF0;font-weight:700;font-size:15px}
-.opt .p{font-family:"Inter Tight";font-weight:800;font-size:20px;white-space:nowrap}
+.opt .p{font-family:"Playfair Display";font-weight:800;font-size:20px;white-space:nowrap}
 .opt .p s{font-family:Manrope;font-weight:600;font-size:13px;color:var(--muted);margin-right:6px}
 .buy{display:flex;gap:8px;flex-wrap:wrap}
 .buy .btn{flex:1;min-width:140px;padding:13px 18px;font-size:15px}
@@ -119,7 +120,7 @@ details ul{margin-top:10px}
 .cycle{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:34px}
 @media(max-width:860px){.cycle{grid-template-columns:1fr 1fr}}
 .step{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:20px}
-.step b{display:block;color:var(--blush);font-family:"Inter Tight";font-size:14px}
+.step b{display:block;color:var(--blush);font-family:"Playfair Display";font-size:14px}
 .step h3{font-size:22px;margin:6px 0}
 .step p{margin:0;color:#D9BFC8;font-size:14px}
 .principles{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
@@ -144,7 +145,7 @@ details ul{margin-top:10px}
 footer{background:var(--dark);color:#D9BFC8;padding:56px 0 30px;font-size:14px}
 footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:30px}
 @media(max-width:860px){footer .cols{grid-template-columns:1fr}}
-footer h4{color:var(--soft);font-family:"Inter Tight";font-size:17px;margin:0 0 10px}
+footer h4{color:var(--soft);font-family:"Playfair Display";font-size:17px;margin:0 0 10px}
 footer a{color:var(--blush);text-decoration:none}
 footer p{margin:4px 0}
 .fill{background:rgba(233,188,198,.16);border-radius:6px;padding:0 6px;color:var(--soft)}
@@ -179,7 +180,7 @@ footer p{margin:4px 0}
 .box2 ul,.mods ol{margin:8px 0 0;padding-left:20px;display:grid;gap:6px;font-size:15px}
 .mods{display:grid;gap:10px}
 .mod{background:#fff;border-radius:18px;padding:16px 18px}
-.mod b{font-family:"Inter Tight";font-size:17px}
+.mod b{font-family:"Playfair Display";font-size:17px}
 .mod p{margin:4px 0 0;color:#4A3540;font-size:15px}
 .chk{display:grid;gap:12px}
 .chk label{font-weight:700;font-size:14px;display:grid;gap:6px}
@@ -190,7 +191,7 @@ footer p{margin:4px 0}
 .methodsel label{border:2px solid var(--line);border-radius:14px;padding:12px;cursor:pointer;display:flex;gap:8px;align-items:center;font-weight:700}
 .methodsel input{accent-color:var(--wine)}
 .sum{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);padding-top:12px}
-.sum b{font-family:"Inter Tight";font-size:30px}
+.sum b{font-family:"Playfair Display";font-size:30px}
 .err{color:#A3263F;font-size:14px;font-weight:700;min-height:18px}
 
 .navr{display:flex;align-items:center;gap:14px}
@@ -205,18 +206,18 @@ footer p{margin:4px 0}
 .btn{white-space:nowrap}
 .proof{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:30px;max-width:600px}
 .pc{background:#fff;border-radius:22px;padding:16px 18px;box-shadow:0 12px 28px rgba(110,50,70,.09);display:flex;flex-direction:column;gap:2px}
-.pc b{font-family:"Inter Tight";font-size:34px;font-weight:800;letter-spacing:-.045em;line-height:1.05}
+.pc b{font-family:"Playfair Display";font-size:34px;font-weight:800;letter-spacing:-.045em;line-height:1.05}
 .pc span{font-size:13.5px;color:var(--muted);font-weight:600}
 .pc.dark1{background:linear-gradient(150deg,#3A1F2A,#1B0E14)}.pc.dark1 span{color:#D9BFC8}
 .float{position:absolute;background:#fff;border-radius:18px;padding:10px 16px;box-shadow:0 18px 36px rgba(60,20,35,.2);display:flex;flex-direction:column}
-.float b{font-family:"Inter Tight";font-size:20px;letter-spacing:-.03em}.float span{font-size:12px;color:var(--muted);font-weight:700}
+.float b{font-family:"Playfair Display";font-size:20px;letter-spacing:-.03em}.float span{font-size:12px;color:var(--muted);font-weight:700}
 .f1{left:-30px;top:22%}.f2{left:-10px;bottom:8%;background:var(--dark);color:var(--soft)}.f2 span{color:#D9BFC8}
 @media(max-width:860px){.f1{left:-8px}.f2{left:0}}
 .strip{padding:0;background:var(--g2);color:var(--ink)}
 .strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
 .strip .wrap>div{padding:22px 18px;border-left:1px solid rgba(36,20,27,.12);display:flex;flex-direction:column}
 .strip .wrap>div:first-child{border-left:0}
-.strip b{font-family:"Inter Tight";font-size:17px}.strip span{font-size:13.5px;color:#5A3A47}
+.strip b{font-family:"Playfair Display";font-size:17px}.strip span{font-size:13.5px;color:#5A3A47}
 @media(max-width:860px){.strip .wrap{grid-template-columns:1fr 1fr}.strip .wrap>div:nth-child(3){border-left:0}}
 .facts{grid-template-columns:repeat(3,1fr)}
 @media(max-width:1000px){.facts{grid-template-columns:1fr 1fr}}
@@ -229,7 +230,7 @@ footer p{margin:4px 0}
 .timeline{list-style:none;margin:36px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:14px;position:relative}
 .timeline:before{content:"";position:absolute;left:4%;right:4%;top:27px;height:2px;background:linear-gradient(90deg,rgba(233,188,198,.1),rgba(233,188,198,.6),rgba(233,188,198,.1))}
 .timeline li{position:relative;display:flex;flex-direction:column;gap:14px}
-.timeline li>b{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--g2);color:var(--ink);font-family:"Inter Tight";font-size:18px;box-shadow:0 0 0 8px #241219}
+.timeline li>b{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--gg);color:var(--ink);font-family:"Playfair Display";font-size:18px;box-shadow:0 0 0 8px #241219}
 .timeline li>div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:18px;flex:1}
 .timeline h3{font-size:21px;margin-bottom:6px;color:var(--soft)}
 .timeline p{margin:0;color:#D9BFC8;font-size:14.5px}
@@ -241,13 +242,13 @@ footer p{margin:4px 0}
 .vid .ph{position:absolute;inset:0;display:grid;place-items:center}
 .vid .ph i{width:62px;height:62px;border-radius:50%;background:var(--g2);display:grid;place-items:center;color:var(--ink);font-style:normal;font-size:22px}
 .vid .cap{position:relative;background:rgba(27,14,20,.6);backdrop-filter:blur(6px);border-radius:14px;padding:10px 12px}
-.vid .cap b{display:block;font-family:"Inter Tight"}.vid .cap span{font-size:13px;color:#E9BCC6;font-weight:700}
+.vid .cap b{display:block;font-family:"Playfair Display"}.vid .cap span{font-size:13px;color:#E9BCC6;font-weight:700}
 .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
 @media(max-width:860px){.shots{grid-template-columns:1fr 1fr}}@media(max-width:520px){.shots{grid-template-columns:1fr}}
 .shot{background:#fff;border-radius:24px;padding:12px;box-shadow:0 16px 36px rgba(110,50,70,.09);display:flex;flex-direction:column;gap:10px}
 .shot .img{aspect-ratio:4/5;border-radius:16px;overflow:hidden;background:linear-gradient(160deg,#F7ECEF,#EBCFD7);display:grid;place-items:center;color:var(--wine);font-weight:700;font-size:14px;text-align:center;padding:10px}
 .shot .img img{width:100%;height:100%;object-fit:cover;object-position:top}
-.shot b{font-family:"Inter Tight";font-size:18px;padding:0 6px}.shot span{color:var(--muted);font-size:14px;padding:0 6px 6px}
+.shot b{font-family:"Playfair Display";font-size:18px;padding:0 6px}.shot span{color:var(--muted);font-size:14px;padding:0 6px 6px}
 .final{text-align:center}.final .lead{max-width:600px}
 
 .res{background:radial-gradient(60% 50% at 85% 0%,rgba(201,133,153,.28),rgba(0,0,0,0) 70%),linear-gradient(165deg,#2F1923,#1B0E14);color:var(--soft)}
@@ -258,23 +259,23 @@ footer p{margin:4px 0}
 .rstats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:34px}
 @media(max-width:860px){.rstats{grid-template-columns:1fr 1fr}}
 .rstat{border:1px solid rgba(233,188,198,.22);border-radius:22px;padding:18px 20px;background:rgba(255,255,255,.04)}
-.rstat b{display:block;font-family:"Inter Tight";font-size:44px;font-weight:800;letter-spacing:-.05em;line-height:1}
+.rstat b{display:block;font-family:"Playfair Display";font-size:44px;font-weight:800;letter-spacing:-.05em;line-height:1}
 .rstat span{font-size:14px;color:#D9BFC8;font-weight:600}
 .cases{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
 @media(max-width:960px){.cases{grid-template-columns:1fr}}
 .case{background:var(--cream);color:var(--ink);border-radius:26px;padding:22px;display:flex;flex-direction:column;gap:14px;box-shadow:0 24px 50px rgba(0,0,0,.25)}
 .case .who{display:flex;align-items:center;gap:12px}
-.case .ava{width:48px;height:48px;border-radius:50%;background:var(--g2);display:grid;place-items:center;font-family:"Inter Tight";font-weight:800;overflow:hidden;flex:none}
+.case .ava{width:48px;height:48px;border-radius:50%;background:var(--g2);display:grid;place-items:center;font-family:"Playfair Display";font-weight:800;overflow:hidden;flex:none}
 .case .ava img{width:100%;height:100%;object-fit:cover}
-.case .who b{font-family:"Inter Tight";font-size:18px;display:block}.case .who span{font-size:13px;color:var(--muted);font-weight:700}
+.case .who b{font-family:"Playfair Display";font-size:18px;display:block}.case .who span{font-size:13px;color:var(--muted);font-weight:700}
 .ba{display:flex;align-items:center;gap:12px;background:#F6E9EC;border-radius:18px;padding:12px 16px}
 .ba div{display:flex;flex-direction:column}.ba small{font-size:11px;text-transform:uppercase;letter-spacing:.08em;font-weight:800;color:var(--muted)}
-.ba .from{font-family:"Inter Tight";font-size:30px;font-weight:800;color:#B49AA4;letter-spacing:-.04em}
-.ba .to{font-family:"Inter Tight";font-size:40px;font-weight:800;letter-spacing:-.05em}
+.ba .from{font-family:"Playfair Display";font-size:30px;font-weight:800;color:#B49AA4;letter-spacing:-.04em}
+.ba .to{font-family:"Playfair Display";font-size:40px;font-weight:800;letter-spacing:-.05em}
 .ba .arrow{font-size:24px;color:var(--wine);font-weight:800}
 .ba .time{margin-left:auto;text-align:right;font-size:13px;font-weight:700;color:var(--wine)}
 .case blockquote{margin:0;font-size:15.5px;line-height:1.5;color:#3E2A33}
-.case blockquote:before{content:"“";font-family:"Inter Tight";font-size:48px;line-height:0;vertical-align:-18px;color:var(--rose);margin-right:4px}
+.case blockquote:before{content:"“";font-family:"Playfair Display";font-size:48px;line-height:0;vertical-align:-18px;color:var(--rose);margin-right:4px}
 .stars{color:#C98599;letter-spacing:2px;font-size:15px}
 .revrow{display:flex;justify-content:space-between;align-items:end}
 .arrows{display:flex;gap:8px;margin-bottom:14px}
@@ -291,14 +292,27 @@ footer p{margin:4px 0}
 .save .calc{display:grid;gap:4px;font-size:14px;color:#D9BFC8}
 .save .calc div{display:flex;justify-content:space-between;gap:12px}
 .save .calc .tot{border-top:1px solid rgba(233,188,198,.25);padding-top:6px;margin-top:4px;font-weight:800;color:var(--soft)}
-.save .big{font-family:"Inter Tight";font-weight:800;font-size:44px;letter-spacing:-.05em;line-height:1}
+.save .big{font-family:"Playfair Display";font-weight:800;font-size:44px;letter-spacing:-.05em;line-height:1}
 .bf{display:block;background:linear-gradient(90deg,#1B0E14,#3A1F2A,#1B0E14)}
 .bf .cd{display:inline-flex;gap:6px;margin-left:10px}
 .bf .cd span{background:rgba(233,188,198,.16);border-radius:8px;padding:2px 8px;font-variant-numeric:tabular-nums}
 .mbar{display:none}
 @media(max-width:680px){.mbar{display:flex;position:fixed;left:10px;right:10px;bottom:10px;z-index:40;background:rgba(27,14,20,.94);backdrop-filter:blur(10px);color:var(--soft);border-radius:22px;padding:10px 10px 10px 18px;align-items:center;justify-content:space-between;gap:10px;box-shadow:0 18px 40px rgba(0,0,0,.35);transform:translateY(140%);transition:transform .3s}
-.mbar.on{transform:none}.mbar b{font-family:"Inter Tight";font-size:22px;display:block;line-height:1}.mbar span{font-size:12px;color:#D9BFC8}.mbar .btn{padding:12px 20px}
+.mbar.on{transform:none}.mbar b{font-family:"Playfair Display";font-size:22px;display:block;line-height:1}.mbar span{font-size:12px;color:#D9BFC8}.mbar .btn{padding:12px 20px}
 footer{padding-bottom:100px}}
+
+.freeg{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:30px}
+@media(max-width:860px){.freeg{grid-template-columns:1fr}}
+.fcard{background:#fff;border-radius:var(--r);padding:30px;display:flex;flex-direction:column;gap:14px;align-items:flex-start;box-shadow:0 20px 44px rgba(107,31,46,.09)}
+.fcard h3{font-size:28px;line-height:1.15}
+.fcard ul{margin:0;padding-left:20px;display:grid;gap:6px}
+.fcard .btn{margin-top:auto}
+.fcard.dk{background:linear-gradient(150deg,#4A1622,#2A0F17);color:#F6E7EB}
+.fcard.dk .pill{background:transparent;color:var(--gold2)}
+.cs{margin:0;font-size:14px;color:#E3CFD6}
+.code{display:inline-block;padding:2px 10px;border-radius:8px;background:var(--gg);color:#2A0F17;font-weight:800;letter-spacing:.06em}
+.dark,.res,.final{background:radial-gradient(60% 50% at 85% 0%,rgba(176,138,69,.16),rgba(0,0,0,0) 70%),linear-gradient(165deg,#4A1622,#2A0F17)!important}
+footer{background:#2A0F17}
 .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
@@ -308,7 +322,7 @@ footer{padding-bottom:100px}}
 <div class="bf" id="bf"></div>
 <header><div class="wrap nav">
 <a class="logo" href="#top"><span class="mono">KE</span>Kravchenko English</a>
-<nav class="links" aria-label="Розділи"><a href="#reviews">Результати</a><a href="#about">Про мене</a><a href="#courses">Курси</a><a href="#path">Як проходить навчання</a><a href="#faq">FAQ</a></nav>
+<nav class="links" aria-label="Розділи"><a href="#reviews">Результати</a><a href="#free">Безкоштовно</a><a href="#about">Про мене</a><a href="#courses">Курси</a><a href="#path">Навчання</a><a href="#faq">FAQ</a></nav>
 <div class="navr"><div class="soc" data-soc></div><a class="btn main" href="#courses" style="padding:11px 20px;font-size:14px">Обрати курс</a></div>
 </div></header>
 
@@ -352,6 +366,22 @@ footer{padding-bottom:100px}}
 <h3 class="subh">Переписки і скріни результатів</h3>
 <div class="shots" id="shots"></div>
 <div class="cta" style="margin-top:30px"><a class="btn rose" href="#courses">Хочу такий результат</a><a class="btn ghost" style="color:var(--soft);border-color:rgba(233,188,198,.45)" href="#trial">Спершу пробний урок за 1 ₴</a></div>
+</div></section>
+
+<section id="free" class="pinkbg"><div class="wrap">
+<div class="kick"><b>Безкоштовно</b><span>/ почни з цього</span></div>
+<h2 class="t sec-title gt">Перший крок — без оплати</h2>
+<p class="lead">Не знаєш, з чого почати? Спершу дізнайся, де ти зараз і що забирає твої бали.</p>
+<div class="freeg">
+<div class="fcard reveal"><span class="pill">PDF-гайд</span><h3>10 помилок у Writing Task 2, які коштують тобі 0.5 бала</h3>
+<ul><li>помилки, яких ти не помічаєш, але бачить екзаменатор</li><li>як виправити кожну — з прикладами «було → стало»</li><li>чекліст на 5 хвилин перед здачею</li></ul>
+<a class="btn main" data-channel href="https://t.me/+tux1m_1cca5lNWVi" target="_blank" rel="noopener">Забрати в Telegram-каналі</a></div>
+<div class="fcard dk reveal"><span class="pill">особисто від мене</span><h3 class="gt2">Безкоштовна перевірка Writing Task 2</h3>
+<ul><li>твій реальний бал за есе</li><li>3 помилки, які тягнуть бал вниз</li><li>план, як підняти результат на +1</li></ul>
+<p class="cs" id="checkState"></p>
+<p style="margin:0;font-weight:700">Напиши кодове слово <span class="code">IELTS</span> у Telegram</p>
+<a class="btn rose" href="https://t.me/kravchenkoeng" target="_blank" rel="noopener">Написати @kravchenkoeng</a></div>
+</div>
 </div></section>
 
 <section id="about" class="about"><div class="wrap grid">
@@ -558,7 +588,11 @@ footer{padding-bottom:100px}}
    CHECKOUT_URL — адреса твого сервера оплати (Supabase/Lovable функція create-invoice).
    Поки порожньо — замовлення формується, і покупцю пропонується надіслати його в Telegram. */
 const CHECKOUT_URL = "";
-const BF = { start: "2026-11-27T00:00:00+02:00", end: "2026-11-30T23:59:59+02:00", off: 0.20 };
+/* ЗАПУСК: відкриття курсу і дедлайн ранньої ціни (час Києва) */
+const LAUNCH = { open: "2026-12-01T12:12:00+02:00", earlyEnd: "2026-12-04T23:00:00+02:00" };
+/* БЕЗКОШТОВНА ПЕРЕВІРКА WRITING: прийом есе */
+const CHECK = { open: "2026-11-28T12:00:00+02:00", close: "2026-11-30T12:00:00+02:00" };
+const CHANNEL = "https://t.me/+tux1m_1cca5lNWVi";
 
 const PRODUCTS = {
   full:{name:"Full IELTS course", price:8900, parts:true},
@@ -615,22 +649,35 @@ const COURSES = [
 
 const fmt = n => n.toLocaleString("uk-UA").replace(/ /g," ") + " ₴";
 const now = new Date();
-const bfOn = now >= new Date(BF.start) && now <= new Date(BF.end);
-const priceOf = k => { const p = PRODUCTS[k]; return (bfOn && !p.noDiscount) ? Math.round(p.price*(1-BF.off)/10)*10 : p.price; };
+const bfOn = false;
+const priceOf = k => PRODUCTS[k].price;
 const priceTag = (k, dark) => bfOn && !PRODUCTS[k].noDiscount
   ? `<span class="old">${fmt(PRODUCTS[k].price)}</span><span class="now ${dark?'gt2':'gt'}">${fmt(priceOf(k))}</span>`
   : `<span class="now ${dark?'gt2':'gt'}">${fmt(priceOf(k))}</span>`;
 (function(){
-  const el = document.getElementById("bf"), st = new Date(BF.start), en = new Date(BF.end);
+  const el = document.getElementById("bf"), op = new Date(LAUNCH.open), en = new Date(LAUNCH.earlyEnd);
   if (now > en) { el.style.display = "none"; return; }
   const pad = n => String(n).padStart(2,"0");
   function tick(){
-    const t = new Date(), live = t >= st, d = Math.max(0, (live ? en : st) - t);
+    const t = new Date(), live = t >= op, d = Math.max(0, (live ? en : op) - t);
+    if (t > en) { el.style.display = "none"; return; }
     const dd = Math.floor(d/864e5), hh = Math.floor(d/36e5)%24, mm = Math.floor(d/6e4)%60, ss = Math.floor(d/1e3)%60;
-    el.innerHTML = (live ? "BLACK FRIDAY · <b>−20% на всі курси у записі</b> · до кінця:" : "BLACK FRIDAY 27–30.11 · <b>−20% на всі курси у записі</b> · старт через:")
+    el.innerHTML = (live
+      ? "КУРС IELTS У ЗАПИСІ ВІДКРИТО 🤍 · <b>рання ціна до 04.12 о 23:00</b> · залишилось:"
+      : "Курс IELTS у записі відкривається <b>01.12 о 12:12</b> 🤍 · до відкриття:")
       + `<span class="cd"><span>${dd}д</span><span>${pad(hh)}:${pad(mm)}:${pad(ss)}</span></span>`;
   }
   tick(); setInterval(tick, 1000);
+})();
+
+/* безкоштовна перевірка: статус */
+(function(){
+  const el = document.getElementById("checkState"); if (!el) return;
+  const o = new Date(CHECK.open), c = new Date(CHECK.close);
+  el.innerHTML = now < o ? "Прийом есе відкривається <b>28.11 о 12:00</b>"
+    : now <= c ? "Прийом відкрито — до <b>30.11 о 12:00</b>. Місць обмежено"
+    : "Прийом цього разу завершено — слідкуй за каналом, щоб не пропустити наступний";
+  document.querySelectorAll("[data-channel]").forEach(a => a.href = CHANNEL);
 })();
 
 const list = document.getElementById("courseList");
@@ -702,7 +749,7 @@ const SCREENSHOTS = [
 ];
 document.getElementById("rstats").innerHTML = RESULT_STATS.map(x => `<div class="rstat reveal"><b class="gt2">${x.n}</b><span>${x.t}</span></div>`).join("");
 document.getElementById("cases").innerHTML = CASES.map(c => `<article class="case reveal">
-  <div class="who"><div class="ava">${c.photo ? `<img src="${c.photo}" alt="${c.name}">` : c.name.replace(/[\[\]]/g,"").slice(0,1)}</div><div><b>${c.name}</b><span>${c.tag}</span></div><div class="stars" style="margin-left:auto">★★★★★</div></div>
+  <div class="who"><div class="ava">${c.photo ? `<img src="${c.photo}" alt="${c.name}">` : c.name.replace(/[\[\]]/g,"").slice(0,1)}</div><div><b>${c.name}</b><span>${c.tag}</span></div></div>
   <div class="ba"><div><small>було</small><span class="from">${c.from}</span></div><span class="arrow">→</span><div><small>стало</small><span class="to gt">${c.to}</span></div><span class="time">${c.time}</span></div>
   <blockquote>${c.quote}</blockquote></article>`).join("");
 document.getElementById("vids").innerHTML = VIDEO_REVIEWS.map(v => `<div class="vid">${v.video
@@ -718,7 +765,7 @@ document.querySelectorAll("[data-scroll]").forEach(b => b.addEventListener("clic
 (function(){
   const parts = ["writingBoth","speaking","reading","grammar","vocabulary"];
   const sum = parts.reduce((a,k)=>a+priceOf(k),0), full = priceOf("full");
-  document.getElementById("save").innerHTML = `<div><span class="badge">вигідніше разом</span><h3 style="margin-top:10px">Full IELTS замість 5 окремих курсів</h3><p>Усі модулі в одній системі — і ти економиш. Можна оплатити частинами.</p></div>
+  document.getElementById("save").innerHTML = `<div><span class="badge">вигідніше разом</span><h3 style="margin-top:10px">Full IELTS замість 5 окремих курсів</h3><p>Усі модулі в одній системі — і ти економиш. Можна оплатити частинами. Ціни на окремі курси вже підняті, а Full IELTS поки за старою ціною.</p></div>
   <div class="calc">${parts.map(k=>`<div><span>${PRODUCTS[k].name}</span><span>${fmt(priceOf(k))}</span></div>`).join("")}<div class="tot"><span>Окремо</span><span><s>${fmt(sum)}</s></span></div></div>
   <div style="display:flex;flex-direction:column;gap:10px"><span style="font-size:13px;color:#D9BFC8;font-weight:700">економія</span><span class="big gt2">${fmt(sum-full)}</span><button class="btn rose" data-buy="full">Full IELTS · ${fmt(full)}</button></div>`;
   document.getElementById("mbarPrice").textContent = fmt(full);
